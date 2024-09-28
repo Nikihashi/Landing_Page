@@ -1,10 +1,10 @@
 @font-face {
     font-family: ABC;
-    src: url(/ABC.ttf);
+    src: url(../ABC.ttf);
 }
 @font-face {
     font-family: thinn;
-    src: url(/NeueHaasDisplayXThin.ttf);
+    src: url(../NeueHaasDisplayXThin.ttf);
 }
 *{
     margin:0;
