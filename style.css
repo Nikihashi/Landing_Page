@@ -1,0 +1,339 @@
+@font-face {
+    font-family: ABC;
+    src: url(/ABC.ttf);
+}
+@font-face {
+    font-family: thinn;
+    src: url(/NeueHaasDisplayXThin.ttf);
+}
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+    padding: 0vh 1vh;
+}
+
+.page1{
+    height:100vh;
+    width:100%;
+}
+
+.nav{
+    margin-top: 20px;
+    margin-bottom: 30px;
+    height: 8vh;
+    width: 100%;
+    /* background-color: cadetblue; */
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    /* padding: 2vh 5vh; */
+    position: relative;
+}
+.nav h1{
+    font-size: 2.5rem;
+}
+.nav .navpart2 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 6vh;
+}
+.nav .navpart2 h1{
+    font-size: 1rem;
+    font-family: ABC;
+    font-weight: 100;
+
+}
+.border {
+    
+    padding:1.8vh;
+    border: 2px solid black;
+    font-family: ABC;
+    border-radius: 10px;
+}
+
+.box{
+    height: 70vh;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+.lbox{
+
+height:100%;
+width:70%;
+display: flex;
+flex-direction: column;
+text-align: left;
+display: inline;
+padding:3vh;
+}
+.lbox h1{
+background-color: transparent;
+font-family: ABC;
+font-size: 3vw;
+margin-bottom: 4vh; 
+}
+.lbox p{
+background-color: transparent;
+padding-right: 3vh;
+font-family: ABC;
+margin-bottom: 4.5vh;
+}
+.lbox button{
+background-color: black;
+border:none;
+color: white;
+font-family: ABC;
+font-size: 1rem;
+padding: 1vh;
+border-radius: 10px;
+cursor: pointer;
+}
+.rbox{
+
+ height:100%;
+ width:100%;
+}
+.rbox img{
+    height: 100%;
+    width:100%;
+}
+.icons{
+    height: 12vh;
+    width:100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0.5vh 10vh;
+    /* background-color: aqua; */
+    margin-bottom:5vh;
+}
+.icons img{
+    height:50px;
+    object-fit: cover;
+    transition: all ease .3s;
+    cursor:pointer;
+}
+.icons .dribble{
+    height: 30px;
+}
+.icons img:hover{
+    opacity: .6;
+    scale:1.5;
+}
+
+/* Page 2 starts from here */
+
+.services{
+    height: 8vh;
+    width: 100%;
+    /* background-color: cadetblue; */
+    display: flex;
+    align-items: center;
+    white-space: nowrap;
+    margin-bottom: 10vh;
+    
+}
+.serv{
+    overflow-x: auto;
+    
+    /* animation: anime 5s linear infinite; */
+}
+
+
+.services h1{
+    display: inline;
+    font-family: ABC;
+    font-size: 40px;
+    background-color:#B9FF66 ;
+}
+.services p{
+    display: inline;
+    font-size: 18px;
+    font-family: ABC;
+}
+
+@keyframes anime {
+ from{
+    transform: translateX(0);
+}
+to{
+    transform:translateX(-100%);
+}
+}
+
+
+.fourBox{
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    background-color: #dadada;
+    padding: 0vh 5vh;
+    flex-wrap: wrap;
+    margin-top: 10vh;
+}
+.boxed{
+    border: 2px solid black;
+    height: 40vh;
+    width: 82vh;
+    margin: 4.8vh;
+    box-shadow: 0px 20px 0px;
+    border-radius: 15px;
+    display: flex;
+    justify-content: space-between;
+    align-items: start;
+    padding: 3vh;
+}
+.x{
+    display: flex;
+    flex-direction: column;
+    gap:180px;
+    font-family: ABC;
+    width: 50%;
+}
+.x h1{
+    background-color: #B9FF66;
+    border-radius: 13px;
+    overflow: hidden;
+}
+.xed{
+    background-color: black;
+}
+.xy{
+    background-color: black;
+}
+.xy h1{
+    background-color: white;
+    color: black;
+}
+.xy p{
+    color: white;
+    background-color: black;
+}
+.rightbox1 img{
+    height: 35vh;
+    width: 100%;
+    object-fit: cover;
+    background-color: #fff;
+}
+.rightbox2 {
+    background-color: black;
+    
+}
+.rightbox2 img{
+    height: 35vh;
+}
+.rightbox3{
+    height: 100%;
+    width: 50%;
+}
+.rightbox3 img{
+    height: 30vh;
+    width: 100%;
+}
+.rightbox4 img{
+    height: 30vh;
+    width: 100%;
+    background-color:#fff;
+}
+/* This is page 3.................. */
+.page3{
+    height:100vh;
+    width: 100%;
+}
+.bottom1{
+    margin:10vh 0vh;
+    height: 40vh;
+    width: 100%;
+    border-radius: 20px;
+    background-color: #dadada;
+    padding:5vh;
+    font-family: ABC;
+    display:flex;
+    align-items: center;
+    justify-content: space-between;
+
+}
+.bottomleft{
+    height:100%;
+    width: 40%;
+}
+.bottomleft h3{
+    font-size: 2.5em;
+    margin-bottom: 2vh;
+    font-weight: 900;
+}
+.bottomleft p{
+    font-size: 1.1em;
+    margin-bottom: 5vh;
+}
+.bottombutton{
+    height: 5vh;
+    width: 30vh;
+    border-radius: 10px;
+    background-color: black;
+    color: white;
+    border:none;
+    font-size: 1em;
+}
+.bottomright {
+    height: 100%;
+    width: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.bottom2{
+    height: 10vh;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    gap: 4vh;
+    font-family: ABC;
+    
+}
+.bottom2 h1{
+    height: 100%;
+    align-content: center;
+    font-size: 2.6em;
+    border-radius: 15px;
+    background-color:#B9FF66;
+}
+.bottom2 p{
+    font-size: 1.3em;
+}
+.bottom3{
+    margin-top:10vh;
+    margin-bottom:10vh;
+    background-color: #1F1F1F;
+    color:white;
+    height: 30vh;
+    width:100%;
+    border-radius: 30px;
+    display: flex;
+    padding: 3vh;
+    
+}
+.f{
+    border-right: 2px solid white;
+    height: 100%;
+    width: 33%;
+    font-size: 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 8vh;
+    font-family:'Times New Roman', Times, serif;
+    word-spacing: 10px;
+    letter-spacing: 2px;
+    font-weight: 400;
+}
+.footer3{
+    border:none;
+}
+.f h6{
+    font-size: 1.5em;
+    color:#B9FF66;
+    font-family: ABC;
+}
