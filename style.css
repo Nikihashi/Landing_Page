@@ -1,6 +1,6 @@
 @font-face {
     font-family: ABC;
-    src: url(/ABC.ttf);
+    src: url('https://github.com/Nikihashi/Landing_Page/raw/refs/heads/main/ABC.ttf');
 }
 @font-face {
     font-family: thinn;
